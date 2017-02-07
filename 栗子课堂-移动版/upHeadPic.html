@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>头像上传</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" type="image/png" href="images/e-logo.png">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-title" content=""/>
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta http-equiv="x-rim-auto-match" content="none" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- This is to force IE into the latest version mode, overriding 'compatibility' mode which breaks everything. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="" /><script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/resetPage.js"></script>
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/resetPage.css">
+    <link rel="stylesheet" href="css/upHeadPic.css">
+</head>
+<body>
+<div class="wrap">
+    <!--加载资源-->
+    <div class="top">
+        <div class="top_sub">
+            <div>头像</div>
+            <a href="tools.html"><img src="images/index/left.png" alt=""></a>
+        </div>
+    </div>
+    <div class="pic_edit">
+        <div id="clipArea">
+            <div class="load">
+                <div class="lazy_tip" id="lazy_tip"><span>1%</span>载入中......</div>
+                <div class="lazy_cover"></div>
+                <div class="resource_lazy hide"></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="upload2" class="button">选择图片</button>
+            <button id="clipBtn" class="button">上传图片</button>
+        </div>
+        <input type="file" id="file" accept="/*" capture="camera" style="opacity: 0;position: fixed;bottom: -100px">
+    </div>
+    <div id="plan">
+        <img src="" width="250" height="250">
+        <canvas id="myCanvas" width="250" height="250"></canvas>
+        <div class="name">你的名字</div>
+    </div>
+    <img src="" fileName="" id="hit" style="display:none;z-index: 9">
+
+    <div id="cover"></div>
+</div>
+
+<script src="js/sonic.js"></script>
+<script src="js/comm.js"></script>
+<script src="js/hammer.js"></script>
+<script src="js/iscroll-zoom.js"></script>
+<script src="js/jquery.photoClip.js?v=1"></script>
+<script src="js/upHeadPic.js"></script>
+</body>
+</html>

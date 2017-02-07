@@ -1,0 +1,110 @@
+/*顶部手搜索框*/
+.search{
+    width: 640px;
+    height: 64px;
+    background: #1bbc9b;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+.search>img,.search>input,.search>a{
+    display: block;
+    float: left;
+}
+.search>a:nth-child(1){
+    margin-top: 8px;
+    margin-left: 16px;
+}
+.search>input:nth-child(2){
+    width:482px;
+    height: 44px;
+    margin-top: 10px;
+    margin-left: 22px;
+    border: none;
+    outline: none;
+    color: #666666;
+    font-size: 20px;
+    border-radius: 5px;
+    text-indent: 18px;
+}
+.search>img:nth-child(3){
+    margin-top: 12px;
+    margin-left: -50px;
+}
+.search>img:nth-child(4){
+    margin-top: 14px;
+    margin-left: 26px;
+    display: none;
+}
+/*课程列表*/
+.listVideo{
+    width: 100%;
+    min-height: 100%;
+    background: #ffffff;
+    overflow: hidden;
+}
+.listMenu{
+    width: 640px;
+    position: fixed;
+    z-index: 100;
+    top: 64px;
+    background: #ffffff;
+}
+.list_title{
+    height: 68px;
+    width:640px;
+    margin: 0 auto;
+    border-bottom: 1px solid #dedede;
+}
+.list_title>div{
+    height: 30px;
+    width: 49.5%;
+    border-right:1px solid #dedede;
+    float: left;
+    font-size: 24px;
+    line-height: 30px;
+    text-indent: 55px;
+    margin-top: 19px;
+    color: #333333;
+}
+.list_title>div>img{
+    margin-left: 10px;
+    line-height: 30px;
+}
+.list_title>div:nth-last-child(1){
+    border: none;
+    text-indent: 77px;
+}
+.Menu_sub{
+    width: 49.5%;
+    overflow: hidden;
+    position:absolute;
+    background: #ffffff;
+    top: 68px;
+}
+.Menu_sub>div{
+    width: 99%;
+    margin: 0 auto;
+    border: 1px solid #dedede;
+    display: none;
+}
+.Menu_sub>div>a{
+    display: block;
+    width: 100%;
+    font-size: 22px;
+    margin: 0 auto;
+    height: 45px;
+    text-decoration: none;
+    border-bottom: 1px solid #dedede;
+    text-align: center;
+    line-height: 45px;
+    color: #666666;
+}
+.Menu_sub>div>a:nth-last-child(1){
+    border: none;
+}
+.listVideo .lizi{
+   /* margin: 132px auto 0px;*/
+    margin: 64px auto 0px;
+}

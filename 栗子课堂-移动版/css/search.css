@@ -1,0 +1,52 @@
+/*搜索页*/
+.classFind{
+    position: absolute;
+    top:0px;
+    width: 640px;
+    min-height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    right: -640px;
+    z-index: 100;
+    display: none;
+    background: #fff;
+}
+.searchF{
+    width: 640px;
+    height: 64px;
+    background: #1bbc9b;
+    overflow:hidden;
+    position: absolute;
+    top: 0px;
+    z-index: 100;
+}
+.searchF>img,.searchF>input,.searchF>div{
+    display: block;
+    float: left;
+}
+.searchF_back:nth-child(1){
+    margin-top: 8px;
+    margin-left: 16px;
+}
+.searchF>input:nth-child(2){
+    width:482px;
+    height: 44px;
+    line-height: 44px;
+    margin-top: 10px;
+    margin-left: 22px;
+    border: none;
+    outline: none;
+    color: #666666;
+    font-size: 20px;
+    border-radius: 5px;
+    text-indent: 18px;
+}
+.searchF>img:nth-child(3){
+    margin-top: 12px;
+    margin-left: -50px;
+}
+.searchF>img:nth-child(4){
+    margin-top: 14px;
+    margin-left: 26px;
+    display: none;
+}

@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>栗子课堂-手机版</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" type="image/png" href="images/e-logo.png">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-title" content=""/>
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta http-equiv="x-rim-auto-match" content="none" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- This is to force IE into the latest version mode, overriding 'compatibility' mode which breaks everything. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="" />
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/resetPage.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <link rel="stylesheet" href="css/resetPage.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/progran.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="css/class.css">
+    <link rel="stylesheet" href="css/search.css">
+    <script type="text/javascript" src="js/getinfo.js"></script>
+    <script type="text/javascript" src="js/layer/layer.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="top">
+            <div class="search classCatSd">
+                <img src="images/search/btn_menu_more@2x.png" width="44" height="44" alt="">
+                <input id="search" type="text" placeholder="搜索课程" disabled>
+                <img src="images/search/btn_search@2x.png" alt="">
+                <div><img src="images/search/btn_hui_bfjilu@2x.png"></div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="content marbottom72">
+                <div class="swiper-container swiper_2">
+                    <div class="swiper-wrapper wrapper_2"></div>
+                </div>
+                <div class="item">
+                    <div class="tit">
+                        <div>高端课堂</div>
+                    </div>
+                    <div class="lizi"></div>
+                    <div class="morea"><img class="loading" src="images/ajax-loader_quan.gif" alt=""><span class="fontLoad">正在加载中...</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="bottomNav">
+            <a href="index.html" class="navBar active">
+                <img src="images/bottomNav/rootTabBar_1@2x.png" height="33" alt="">
+                <span>课程</span>
+            </a>
+            <a href="collect.html" class="navBar">
+                <img src="images/bottomNav/TabBar_2@2x.png" height="33" alt="">
+                <span>收藏</span>
+            </a>
+            <a href="find.html" class="navBar">
+                <img src="images/bottomNav/TabBar_3@2x.png" height="33" alt="">
+                <span>发现</span>
+            </a>
+            <a href="mine.html" class="navBar">
+                <img src="images/bottomNav/TabBar_4@2x.png" height="33" alt="">
+                <span>我的</span>
+            </a>
+        </div>
+    </div>
+    <div class="recents">
+        <div class="recent">
+            <div>最近学习</div>
+            <a href="###"><img src="images/index/left.png" alt=""></a>
+        </div>
+        <div class="prev">
+            <img src="images/icon-kong.png" alt="">
+            <p>最近未学习</p>
+        </div>
+        <div class="recent_sub"></div>
+    </div>
+    <div class="classCats">
+        <div class="classCat">
+            <div>课程分类</div>
+            <a href="###"><img src="images/index/left.png" alt=""></a>
+        </div>
+        <div class="class_sub">
+            <div class="titleH">热搜<span>换一下</span></div>
+            <div class="classSub">
+<!--                <a href="listview.html?type=html5">
+                    <img src="images/class/h5.png" alt="">
+                    <span>HTML5</span>
+                </a>
+                <a href="listview.html?type=css3">
+                    <img src="images/class/css3.png" alt="">
+                    <span>CSS3</span>
+                </a>
+                <a href="listview.html?type=JQ">
+                    <img src="images/class/JQ.png" alt="">
+                    <span>jQuery</span>
+                </a>
+                <a href="listview.html?JS">
+                    <img src="images/class/JS.png" alt="">
+                    <span>JavaScript</span>
+                </a>
+                <a href="listview.html?type=AngularJS">
+                    <img src="images/class/AngularJS.png" alt="">
+                    <span>AngularJS</span>
+                </a>
+                <a href="listview.html?type=PHP">
+                    <img src="images/class/PHP.png" alt="">
+                    <span>PHP</span>
+                </a>
+                <a href="listview.html?type=Bootstrap">
+                    <img src="images/class/B.png" alt="">
+                    <span>Bootstrap</span>
+                </a>
+                <a href="listview.html?type=node">
+                    <img src="images/class/node.png" alt="">
+                    <span>NodeJS</span>
+                </a>-->
+            </div>
+        </div>
+    </div>
+    <div class="classFind">
+        <div class="searchF">
+            <div class="searchF_back"><img src="images/index/fanhui@2x.png" width="44" height="44" alt=""></div>
+            <input id="searchFG" type="text" placeholder="搜索课程">
+            <img src="images/search/btn_search@2x.png" alt="">
+            <img src="images/search/btn_hui_bfjilu@2x.png">
+        </div>
+        <div class="class_sub">
+            <div class="titleH">热搜<span>换一下</span></div>
+            <div class="classSub">
+                <!--<a href="listview.html?type=html5">
+                    <img src="images/class/h5.png" alt="">
+                    <span>HTML5</span>
+                </a>
+                <a href="listview.html?type=css3">
+                    <img src="images/class/css3.png" alt="">
+                    <span>CSS3</span>
+                </a>
+                <a href="listview.html?type=JQ">
+                    <img src="images/class/JQ.png" alt="">
+                    <span>jQuery</span>
+                </a>
+                <a href="listview.html?JS">
+                    <img src="images/class/JS.png" alt="">
+                    <span>JavaScript</span>
+                </a>
+                <a href="listview.html?type=AngularJS">
+                    <img src="images/class/AngularJS.png" alt="">
+                    <span>AngularJS</span>
+                </a>
+                <a href="listview.html?type=PHP">
+                    <img src="images/class/PHP.png" alt="">
+                    <span>PHP</span>
+                </a>
+                <a href="listview.html?type=Bootstrap">
+                    <img src="images/class/B.png" alt="">
+                    <span>Bootstrap</span>
+                </a>
+                <a href="listview.html?type=node">
+                    <img src="images/class/node.png" alt="">
+                    <span>NodeJS</span>
+                </a>-->
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

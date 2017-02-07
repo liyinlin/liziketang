@@ -1,0 +1,134 @@
+.list>div:nth-child(1){
+    display: none;
+}
+.list>div:nth-child(2){
+    width: 100%;
+}
+.list>div:nth-child(2)>div{
+    width: 100%;
+    text-indent: 18px;
+}
+body .wrap .main .marTop{
+    margin-top: 106px;
+}
+.submit{
+    display: block;
+    width: 570px;
+    height: 68px;
+    background: #1bbc9b;
+    border: none;
+    outline: none;
+    margin: 50px auto 0px;
+    border-radius:10px;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "微软雅黑";
+}
+/*手机号码弹出*/
+.tel{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 110;
+    display: none;
+}
+.tel .tel_bd{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
+    opacity: 0.2;
+    filter: alpha(opacity:20);
+    display: block;
+    position: fixed;
+}
+.tel .tel_text{
+    width: 610px;
+    left: 15px;
+    position: fixed;
+    bottom: -270px;
+}
+.tel .tel_text>div{
+    width: 100%;
+    border-radius: 15px;
+    background: #fff;
+}
+.tel .tel_text>div>div,
+.tel .tel_text>div>a,
+.tel .tel_text>div:nth-child(2){
+    height: 80px;
+    line-height: 80px;
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+}
+.tel .tel_text>div>a{
+    text-decoration: none;
+    border-top: 1px solid #ededed;
+    color: #1bbc9b;
+    font-size: 30px;
+}
+.tel .tel_text>div:nth-child(2){
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/*评论*/
+.comment{
+    background-color:#f1f1f1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    right: -640px;
+    z-index: 120;
+    display: none;
+}
+.input_text{
+    width: 614px;
+    height: 256px;
+    margin: 18px auto 0;
+    border-radius: 10px;
+    background: #ffffff;
+    overflow: hidden;
+    border: 1px solid #EDEDED;
+}
+.input_text>textarea{
+    width: 560px;
+    height: 226px;
+    resize: none;
+    border: none;
+    outline: none;
+    font-size:20px;
+    color: #333333;
+    display: block;
+    margin: 27px auto 0;
+}
+body .wrap .main .ver_left{
+    width:85%;
+    float: left;
+}
+body .wrap .main .ver_right{
+    width: 15%;
+    float: right;
+    height:70px;
+    line-height: 70px;
+    color: #333;
+    font-size: 24px;
+}
+body .wrap .main .ver_left{
+    width:85%;
+    float: left;
+}
+body .wrap .main .ver_right{
+    width: 15%;
+    float: right;
+    height:70px;
+    line-height: 70px;
+    color: #333;
+    font-size: 24px;
+}

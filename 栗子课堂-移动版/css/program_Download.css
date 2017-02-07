@@ -1,0 +1,57 @@
+/*课程*/
+.lizi_Down{
+    width: 640px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.lizi_Down>a{
+    display: block;
+    width: 608px;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0px auto;
+}
+.lizi_Down>a:nth-last-child(1){
+    border-bottom: none;
+}
+.lizi_Down>a>div{
+    float: left;
+}
+.lizi_img{
+    width: 270px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.lizi_text{
+    width:338px;
+    margin-top: 38px;
+}
+.lizi_text>div:nth-child(1){
+    font-size: 24px;
+    color: #000000;
+    width: 332px;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 5px;
+}
+.lizi_text>div:nth-child(2){
+    font-size: 28px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 auto;
+    color: #ff6600;
+    margin-top: 48px;
+}
+.lizi_text>div:nth-child(2)>i{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: line-through;
+    color: #666666;
+    margin-left: 5px;
+}
+body .lizi_Down>a .lizi_text .free {
+    color: #59b111;
+}

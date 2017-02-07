@@ -1,0 +1,145 @@
+/*散装*/
+.top{
+    width: 640px;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+body{
+    background: #f7f7f7;
+}
+.colorWhite{
+    background: #fff;
+}
+/*顶部部分*/
+.login{
+    width: 640px;
+    height: 88px;
+    background: #1bbc9b;
+    position: fixed;
+    top: 0px;
+}
+.login>div,.login>a{
+    color: #ffffff;
+}
+.login>div{
+    line-height: 88px;
+    text-align: center;
+    width: 640px;
+    height: 88px;
+    font-size: 34px;
+}
+.login>a:nth-child(2){
+    text-decoration:none;
+    font-size:30px;
+    padding: 0 auto;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    top: 30px;
+    right:40px;
+}
+.login>a:nth-child(3){
+    position: absolute;
+    left: 27px;
+    top:28px;
+}
+/*内容部分*/
+.main{
+    width: 640px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.form{
+    margin-top: 105px;
+    width: 640px;
+}
+.form_sub{
+    width: 640px;
+    overflow: hidden;
+}
+.form_sub>div{
+    width: 640px;
+    height: 70px;
+    background: #ffffff;
+    margin-top: 3px;
+    position: relative;
+}
+.form_sub>div>label{
+    display: block;
+    width: 124px;
+    text-indent: 16px;
+    font-size: 24px;
+    color: #000000;
+    line-height: 70px;
+    float: left;
+}
+.form_sub>div>input:nth-child(2){
+    font-size: 24px;
+    height: 70px;
+    width: 516px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
+.password{
+    width: 138px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.password>div{
+    width: 32px;
+    height: 8px;
+    background: #d5d5d5;
+    color: #ffffff;
+    float: left;
+    margin-top: 31px;
+    text-align: center;
+    font-family: "微软雅黑";
+    cursor: default;
+    margin-left: 2px;
+}
+.password>div:nth-child(1){
+    margin-left: 0px;
+    background: #bf260b;
+}
+.password>p{
+    margin-left: 5px;
+    color: #bf260b;
+    padding: 0 auto;
+    font-size: 16px;
+    height: 70px;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 70px;
+    background: none;
+}
+.button{
+    display: block;
+    width: 116px;
+    height: 42px;
+    background: #f2f2f2;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius:5px;
+    color: #848484;
+    position: absolute;
+    top:14px;
+    right:28px;
+}
+.submit{
+    text-decoration: none;
+    display: block;
+    width: 570px;
+    height: 68px;
+    background: #1bbc9b;
+    margin: 45px auto 35px;
+    border-radius:10px;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 68px;
+}

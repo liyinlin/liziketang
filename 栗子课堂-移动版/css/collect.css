@@ -1,0 +1,23 @@
+/*收藏*/
+.lizi_D{
+    width: 640px;
+    overflow: hidden;
+    padding-bottom: 90px;
+    z-index: 1;
+}
+.lizi_Down{
+    margin-top: 88px;
+}
+.addClass{
+    width: 608px;
+    height: 177px;
+    border: 1px solid #000;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 177px;
+    font-size: 140px;
+    border-radius: 10px;
+}
+.prev{
+    display: none;
+}

@@ -1,0 +1,59 @@
+/*性别修改*/
+.sex{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top:0px;
+    z-index: 100;
+    display: none;
+}
+.bd_sex{
+    position: absolute;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+}
+.sex_info{
+    width: 400px;
+    height: 272px;
+    background: #fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -125px;
+    z-index: 50;
+    box-shadow: 0px 0px 10px #666;
+    border-radius:3px;
+}
+.sex_info>div{
+    font-size: 26px;
+    margin: 0px auto;
+    height: 90px;
+    line-height:90px;
+}
+.sex_info>div:nth-child(1){
+    width: 400px;
+    text-indent: 20px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.sexs{
+    width: 400px;
+    position: relative;
+    text-indent: 20px;
+}
+.sex_info>div:nth-child(2){
+    border-bottom: 1px solid #f5f5f5;
+}
+.sexs>img{
+    position: absolute;
+    right: 20px;
+    top:30px;
+    width: 30px;
+    height: 30px;
+}

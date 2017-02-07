@@ -1,0 +1,81 @@
+/*课程分类*/
+.classCats{
+    width: 640px;
+    min-height: 100%;
+    background: #ffffff;
+    overflow: hidden;
+    z-index: 150;
+    position: absolute;
+    top: 0px;
+    right: -640px;
+    display: none;
+}
+.classCat{
+    width: 640px;
+    height: 88px;
+    background: #1bbc9b;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+.classCat>div{
+    width: 640px;
+    height: 88px;
+    line-height: 88px;
+    color: #ffffff;
+    font-size: 34px;
+    text-align: center;
+}
+.classCat>a{
+    position: absolute;
+    left: 27px;
+    top:28px;
+}
+.class_sub{
+    width: 640px;
+    overflow: hidden;
+}
+.titleH{
+    width: 600px;
+    height: 38px;
+    margin: 123px auto 0px;
+    font-size: 24px;
+    text-indent: 30px;
+    color: #333333;
+    border-bottom:1px solid #dedede;
+    position: relative;
+}
+.titleH>span{
+    color: #dedede;
+    position: absolute;
+    right: 20px;
+}
+.classSub{
+    width: 640px;
+    margin: 7px auto 0px;
+    overflow: hidden;
+}
+.classSub>a{
+    display: block;
+    width: 50%;
+    overflow: hidden;
+    text-decoration: none;
+    color: #666666;
+    float: left;
+}
+.classSub>a>img,.classSub>a>span{
+    display: block;
+    float: left;
+}
+.classSub>a>img{
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin: 20px 24px 20px 52px;
+}
+.classSub>a>span{
+    height: 85px;
+    padding: 0 auto;
+    line-height:85px;
+    font-size: 24px;
+}

@@ -1,0 +1,105 @@
+/*散装*/
+.top{
+    width: 640px;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+body{
+    background: #f7f7f7;
+}
+
+/*顶部部分*/
+.login{
+    width: 640px;
+    height: 88px;
+    background: #1bbc9b;
+    position: fixed;
+    top: 0px;
+}
+.login>div,.login>a{
+    color: #ffffff;
+}
+.login>div{
+    line-height: 88px;
+    text-align: center;
+    width: 640px;
+    height: 88px;
+    font-size: 34px;
+}
+.login>a:nth-child(2){
+    text-decoration:none;
+    font-size:30px;
+    padding: 0 auto;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    top: 30px;
+    right:40px;
+}
+.login>a:nth-child(3){
+    position: absolute;
+    left: 27px;
+    top:28px;
+}
+/*内容部分*/
+.main{
+    width: 640px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.form{
+    margin-top: 105px;
+    width: 640px;
+}
+form{
+    width: 640px;
+    overflow: hidden;
+}
+form>div{
+    width: 640px;
+    height: 70px;
+    background: #ffffff;
+    margin-top: 3px;
+    position: relative;
+}
+form>div>label{
+    padding: 0px auto;
+    font-size: 24px;
+    color: #000000;
+    line-height: 70px;
+    position: absolute;
+    left: 16px;
+}
+form>div>input{
+    font-size: 24px;
+    height: 70px;
+    width: 640px;
+    border: none;
+    outline: none;
+    text-indent: 124px;
+}
+.submit{
+    display: block;
+    width: 570px;
+    height: 68px;
+    background: #1bbc9b;
+    border: none;
+    margin: 45px auto 35px;
+    border-radius:10px;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    line-height:68px;
+}
+.forgetPwd{
+    display: block;
+    padding: 0 auto;
+    font-size: 24px;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 485px;
+    text-decoration: none;
+    color: #c2c2c2;
+}

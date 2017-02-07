@@ -1,0 +1,21 @@
+/*顶部部分*/
+.head{
+    width: 640px;
+    height: 88px;
+    background: #1bbc9b;
+    position: fixed;
+    top: 0px;
+}
+.head>div{
+    width: 640px;
+    height: 88px;
+    line-height: 88px;
+    color: #ffffff;
+    font-size: 34px;
+    text-align: center;
+}
+.head>a{
+    position: absolute;
+    left: 27px;
+    top:28px;
+}

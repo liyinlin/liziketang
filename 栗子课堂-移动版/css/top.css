@@ -1,0 +1,63 @@
+/*第一种*/
+.top{
+    width: 640px;
+    top: 0px;
+    z-index: 100;
+}
+/*顶部部分*/
+.top_sub1{
+    width: 640px;
+    height: 88px;
+    background: #1bbc9b;
+    top: 0px;
+    position: relative;
+}
+.top_sub1>div,.login>a{
+    color: #ffffff;
+}
+.top_sub1>div{
+    line-height: 88px;
+    text-align: center;
+    width: 640px;
+    height: 88px;
+    font-size: 34px;
+}
+.top_sub1>a:nth-child(2){
+    text-decoration:none;
+    font-size:30px;
+    padding: 0 auto;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    top: 30px;
+    right:40px;
+    color: #ffffff;
+}
+.top_sub1>a:nth-child(3){
+    position: absolute;
+    left: 27px;
+    top:28px;
+}
+/*第二种*/
+.top_sub{
+    width: 640px;
+    height: 88px;
+    background: #1bbc9b;
+    top: 0px;
+    position: fixed;
+}
+.top_sub>div,.login>a{
+    color: #ffffff;
+}
+.top_sub>div{
+    line-height: 88px;
+    text-align: center;
+    width: 640px;
+    height: 88px;
+    font-size: 34px;
+}
+.top_sub>a:nth-child(2){
+    position: fixed;
+    left: 27px;
+    top:28px;
+}

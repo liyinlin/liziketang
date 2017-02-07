@@ -1,0 +1,36 @@
+.dialog{
+    width: 640px;
+    height: 355px;
+    background: url(../images/login/dialog.png) no-repeat;
+    position: fixed;
+    bottom: -272px;
+    display: none;
+}
+.tips{
+    width: 162px;
+    margin: 0 auto;
+}
+.tips>img,.tips>span{
+    display: block;
+}
+.tips>img{
+    margin: 10px auto 0px;
+}
+.tips>span{
+    text-align: center;
+    padding: 0px auto;
+    font-size: 22px;
+    height: 22px;
+    line-height: 22px;
+    color: #666666;
+    margin-top: 24px;
+}
+.case{
+    width: 347px;
+    height: 168px;
+    margin: 50px auto 0px;
+}
+.case>a{
+    display: block;
+    margin-top: 34px;
+}

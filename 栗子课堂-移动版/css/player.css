@@ -1,0 +1,567 @@
+/*主体部分*/
+.main{
+    width: 640px;
+    overflow: hidden;
+}
+.content_sub{
+    width: 640px;
+    overflow: hidden;
+}
+.main{
+    padding-bottom: 74px;
+}
+.martop414{
+    margin-top: 414px;
+}
+/*视频播放部分*/
+.video{
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+.back_video{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    display: none;
+}
+.back_video_bd{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+.back_video_content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.screen_a{
+    display: block;
+    position: absolute;
+    left: 27px;
+    top:15px;
+}
+.back_video .name{
+    color: #fff;
+    font-size: 22px;
+    line-height: 20px;
+    margin-left: 60px;
+}
+#video_controlbar{
+ /*   background: #000;*/
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+}
+#video_controlbar .jwhidden{
+    margin-top: 9px;
+}
+.video>a>img,.video>a>span{
+    display: block;
+    float: left;
+}
+.video>a>span{
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 auto;
+    margin-left: 22px;
+}
+.video>a>img{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.videoTools{
+    width: 640px;
+    height: 65px;
+    background: #424447;
+    position: absolute;
+    bottom: 0px;
+    -moz-transition:bottom 1s;
+    -webkit-transition:bottom 1s;
+    -o-transition:bottom 1s;
+    transition:bottom 1s;
+
+}
+video{
+    object-fit: contain;
+    display: block;
+}
+.videoTools>div{
+    float: left;
+}
+.videoTools>div:nth-child(1){
+    margin-top: 20px;
+    margin-left: 26px;
+}
+#change{
+    width: 500px;
+    height: 24px;
+    position: relative;
+    margin-left: 24px;
+    margin-top: 21px;
+}
+#change>div:nth-child(1){
+    width:480px;
+    height: 3px;
+    background: #cccccc;
+    margin-top: 11px;
+    margin-left: 20px;
+}
+#change>div:nth-child(2){
+    width: 0px;
+    height: 3px;
+    background: #22bd9d;
+    position: absolute;
+    top:11px;
+    left: 20px;
+}
+#change>div:nth-child(3){
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+#change>div:nth-child(4){
+    font-size: 14px;
+    height: 16px;
+    line-height: 14px;
+    padding: 0 auto;
+    color: #cccccc;
+    position: absolute;
+    top:22px;
+    right:8px;
+}
+.videoTools>div:nth-child(3) {
+    margin-left: 25px;
+    margin-top: 17px;
+}
+#video{
+    width: 100%;
+    height: 360px;
+    background: black;
+    overflow: hidden;
+}
+#video>video{
+    width: 100%;
+    height: 100%;
+}
+/*内容部分*/
+.content{
+    width: 640px;
+    overflow: hidden;
+    min-height: 100%;
+}
+.info_but{
+    width: 640px;
+    height: 64px;
+    border-bottom: 2px solid #dedede;
+    position: fixed;
+    top: 360px;
+    z-index: 100;
+    background: #ffffff;
+    overflow: hidden;
+}
+.info_but>div{
+    float: left;
+    width: 212px;
+    text-align: center;
+    font-size: 26px;
+    color: #333333;
+    height: 32px;
+    margin-top: 20px;
+    border-right: 1px solid #dedede;
+}
+.info_but>div:nth-last-child(1){
+    border: none;
+}
+.info_but>div>span{
+    display: inline-block;
+    height: 42px;
+}
+.active>span{
+    border-bottom: 1px solid #1bbc9b;
+    color: #1bbc9b;
+}
+/*导航内容部分*/
+.swipera{
+    width: 100%;
+    padding-top: 424px;
+    overflow: hidden;
+}
+.swipera .swiper-slide{
+    width: 100%;
+    overflow: hidden;
+}
+/*目录部分*/
+.list{
+    width: 610px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top:3px;
+    margin-bottom: 3px;
+}
+.list_top{
+    width: 610px;
+    height: 55px;
+    line-height: 55px;
+    border-bottom:  1px solid #f1f1f1;
+    font-size: 26px;
+    color: #000000;
+    text-indent: 8px;
+    position: relative;
+}
+.list_top>span{
+    margin-left: 15px;
+}
+.list_top>img{
+    position: absolute;
+    right: 24px;
+    top:24px;
+}
+.class_info{
+    width: 610px;
+    overflow: hidden;
+}
+.class_info>li{
+    list-style: none;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    color: #909090;
+    text-indent: 40px;
+    position: relative;
+    background: url(../images/player/plays.png) 10px 20px no-repeat;
+}
+.class_info .activeli{
+    color: #1bbc9b;
+    background: url(../images/player/played.png) 10px 20px no-repeat;
+}
+.class_info>li>span{
+    position: absolute;
+    right: 8px;
+}
+.list_none>ul{
+    display: none;
+}
+/*详情部分*/
+.item1{
+    width: 640px;
+    overflow: hidden;
+}
+.item{
+    width: 570px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.title{
+    font-size: 24px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 auto;
+    color: #333333;
+}
+.title1{
+    font-size: 24px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 auto;
+    color: #333333;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.item>p{
+    font-size: 20px;
+    line-height: 26px;
+    color: #666666;
+    margin-left: 3px;
+}
+.item>p:nth-child(2){
+    margin-top: 20px;
+}
+.teacher{
+    width: 570px;
+    overflow: hidden;
+}
+.teacher>div{
+    float: left;
+}
+.teacher>div:nth-child(1){
+    width: 86px;
+    overflow: hidden;
+}
+.teacher>div:nth-child(1)>img{
+    display: block;
+    margin-top: 24px;
+    margin-left: 8px;
+}
+.infos{
+    width: 484px;
+    margin-top: 48px;
+}
+.infos>div{
+    font-size: 20px;
+    line-height: 20px;
+    height: 20px;
+    padding: 0 auto;
+    color: #333333;
+}
+.infos>p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #666666;
+}
+/*评论*/
+.question{
+    width: 640px;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+.form1{
+    width: 640px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.send_s{
+    width: 100px;
+    height: 40px;
+    background: #1bbc9b;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 18px;
+    margin-left: 514px;
+}
+/*底部导航栏*/
+.bottomBar{
+    width: 640px;
+    height: 74px;
+    background: #ffffff;
+    border-top:1px solid #dedede;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+}
+.bottomBar>a:nth-child(3){
+    display: none;
+}
+.bottomBar>a{
+    display: block;
+    width: 18.5%;
+    height:100%;
+    float: left;
+}
+.bottomBar>a:nth-last-child(1){
+    width:130px;
+    height: 50px;
+    background: #ff6c00;
+    color: #fff;
+    font-size: 24px;
+    line-height: 52px;
+    text-align: center;
+    margin: 24px auto 0;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.bottomBar>a>img{
+    display: block;
+    height: 35px;
+    margin: 22px auto;
+}
+/*分享*/
+.share{
+    width: 640px;
+    height: 408px;
+    overflow: hidden;
+    position: fixed;
+    bottom: -408px;
+    z-index: 101;
+    overflow: hidden;
+}
+.share_sub{
+    width: 640px;
+    height: 334px;
+    background: #efefef;
+}
+.share_sub>a{
+    display: block;
+    width: 25%;
+    float: left;
+    text-decoration: none;
+    color: #666666;
+    margin-top: 36px;
+}
+.share_sub>a:nth-child(1),.share_sub>a:nth-child(2),.share_sub>a:nth-child(3),.share_sub>a:nth-child(4){
+    margin-top: 58px;
+}
+
+.share_sub>a>img,.share_sub>a>span{
+    display:block;
+}
+.share_sub>a>img{
+    margin: 0 auto;
+}
+.share_sub>a>span{
+    pading:0 auto;
+    text-align: center;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 9px;
+}
+.share .close{
+    width: 640px;
+    height: 74px;
+    font-size: 24px;
+    line-height: 74px;
+    text-align: center;
+    color: #666666;
+    background: #ffffff;
+}
+/*评论*/
+.comment{
+    width: 640px;
+    height: 100%;
+    background-color:#f1f1f1 ;
+    position: fixed;
+    left: 0px;
+    z-index: 101;
+    display: none;
+}
+.input_text{
+    width: 614px;
+    height: 256px;
+    margin: 18px auto 0;
+    border-radius: 10px;
+    background: #ffffff;
+    overflow: hidden;
+    border: 1px solid #EDEDED;
+}
+.input_text>textarea{
+    width: 560px;
+    height: 226px;
+    resize: none;
+    border: none;
+    outline: none;
+    font-size:20px;
+    color: #333333;
+    display: block;
+    margin: 27px auto 0;
+}
+/*下载*/
+.load{
+    width: 640px;
+    height: 100%;
+    background-color:#f1f1f1 ;
+    position: fixed;
+    left: 0px;
+    top:0px;
+    z-index: 101;
+    background: #fffffF;
+    overflow: hidden;
+    display: none;
+}
+
+.form{
+    width: 640px;
+    height:100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.swiperl{
+    width: 640px;
+    height: 100%;
+    overflow: hidden;
+}
+.swiperl .swiper-slide{
+    width: 592px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 119px;
+}
+.check_box{
+    width: 592px;
+    margin: 46px auto;
+    overflow: hidden;
+}
+.check_box>div:nth-child(1){
+    font-size: 24px;
+    color: #333333;
+    height: 24px;
+    padding: 0 auto;
+    line-height: 24px;
+}
+.check_box>div:nth-child(2){
+    width: 100%;
+    overflow: hidden;
+    margin-top: 46px;
+    position: relative;
+}
+.check_box>div:nth-child(2)>div,.check_box>div:nth-child(2)>input{
+    float: left;
+    color: #666666;
+    font-size: 20px;
+}
+.check_box>div:nth-child(2)>div:nth-child(1){
+    width: 28px;
+    height: 28px;
+}
+.check_box>div:nth-child(2)>div:nth-child(3){
+    padding: 0 auto;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 28px;
+}
+.check_box>div:nth-child(2)>input{
+   display: none;
+}
+.check_box>div:nth-child(2)>div:nth-child(4){
+    padding: 0 auto;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 28px;
+    font-size: 16px;
+    color: #666;
+    position: absolute;
+    right:0px;
+}
+.button{
+    width: 640px;
+    height: 71px;
+    border-top: 1px solid #cccccc;
+    background: #fafafa;
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    z-index: 3;
+}
+.button>input{
+    width:49.5%;
+    height: 71px;
+    background: #fafafa;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #666666;
+}
+.info_list{
+    width: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,78 @@
+body{
+    background: #dedede;
+}
+.content_sub{
+    padding-top: 88px;
+}
+.content_sub ul li{
+    list-style: none;
+}
+.content_sub ul{
+    width: 640px;
+    overflow: hidden;
+    background: #ffffff;
+}
+.content_sub ul li{
+    width: 625px;
+    height: 68px;
+    font-size: 22px;
+    line-height: 68px;
+    color: #333;
+    margin-left: 15px;
+    border-bottom: 1px solid #dedede;
+    position: relative;
+}
+.content_sub ul li>div:nth-child(2){
+    padding: 0 auto;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+}
+.color{
+    color: #ff6600;
+}
+.content_sub ul:nth-child(2){
+    margin-top: 15px;
+}
+.content_sub ul li>img{
+    margin-top: 14px;
+    width: 40px;
+    height: 40px;
+}
+.content_sub ul li>span,.content_sub ul li>img{
+    float: left;
+    display: block;
+}
+.content_sub ul li>span{
+    margin-left: 20px;
+}
+.input_offer{
+    width: 610px;
+    margin: 30px auto 0px;
+    overflow: hidden;
+}
+.dui{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 12px;
+    top: 22px;
+    background: url(../images/offer/no_dui.png) no-repeat;
+}
+.content_sub ul li>input{
+    display: block;
+    width:0px;
+    height: 0px;
+}
+.input_offer>a{
+    display: block;
+    width: 610px;
+    height: 68px;
+    background: #ffa100;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    line-height: 68px;
+    margin-top: 54px;
+    text-decoration: none;
+}

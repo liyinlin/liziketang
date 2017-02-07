@@ -1,0 +1,120 @@
+/*发现*/
+.wrap{
+    min-height: 100%;
+    background: #dedede;
+}
+.find{
+    width: 640px;
+    margin:88px auto 0px;
+    overflow: hidden;
+}
+.find_sub{
+    display: block;
+    width: 640px;
+    background: #ffffff;
+    text-decoration: none;
+    color: #333;
+    overflow: hidden;
+    margin-bottom: 8px;
+    padding-bottom: 15px;
+}
+.find_sub>p{
+    width: 572px;
+    margin: 0 auto;
+    line-height: 42px;
+    margin-top: 18px;
+    font-size: 26px;
+    color: #333;
+}
+.find_sub>div:nth-child(2){
+    width: 572px;
+    font-size: 20px;
+    margin: 20px auto;
+    height: 20px;
+    line-height: 20px;
+    color: #ccc;
+}
+.find_sub>div:nth-child(2)>span{
+    float: left;
+}
+.find_sub>div:nth-child(2)>span:nth-child(2){
+    padding: 0px 24px 0px 10px;
+    border-right: 1px solid #ccc;
+    margin-right:24px;
+}
+.info{
+    width: 572px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-overflow: ellipsis;
+}
+.info>img{
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+}
+.info>img,.info>p{
+    float: left;
+    display: block;
+}
+.info>p{
+    width: 500px;
+    height: 80px;
+    overflow: hidden;
+    font-size: 24px;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-top: -8px;
+    color: #666;
+}
+/*评论*/
+.comment{
+    width: 640px;
+    height: 100%;
+    background-color:#f1f1f1;
+    position: fixed;
+    z-index: 100;
+}
+.input_text{
+    width: 614px;
+    height: 256px;
+    margin: 18px auto 0;
+    border-radius: 10px;
+    background: #ffffff;
+    overflow: hidden;
+    border: 1px solid #EDEDED;
+}
+.input_title{
+    width: 614px;
+    height: 60px;
+    margin: 18px auto 0;
+    border-radius: 10px;
+    background: #ffffff;
+    overflow: hidden;
+    border: 1px solid #EDEDED;
+}
+.input_title>input{
+    width: 560px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 18px;
+    resize: none;
+    border: none;
+    outline: none;
+    font-size:20px;
+    color: #333333;
+    display: block;
+    text-indent: 27px;
+}
+.input_text>textarea{
+    width: 560px;
+    height: 226px;
+    resize: none;
+    border: none;
+    outline: none;
+    font-size:20px;
+    color: #333333;
+    display: block;
+    margin: 27px auto 0;
+}

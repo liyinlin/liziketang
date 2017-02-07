@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>忘记密码</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" type="image/png" href="images/e-logo.png">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-title" content=""/>
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta http-equiv="x-rim-auto-match" content="none" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- This is to force IE into the latest version mode, overriding 'compatibility' mode which breaks everything. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="" />
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/resetPage.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <link rel="stylesheet" href="css/resetPage.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/forgetPwd.css">
+    <link rel="stylesheet" href="css/code.css">
+    <script type="text/javascript" src="js/layer/layer.js"></script>
+    <script type="text/javascript" src="js/getinfo.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="top">
+            <div class="forgetPwd">
+                <div>忘记密码</div>
+                <a href="register.html">注册</a>
+                <a href="login.html"><img src="images/index/left.png" alt=""></a>
+            </div>
+        </div>
+        <div class="mian">
+            <div class="form">
+                <div>
+                    <label>手机号</label>
+                    <input maxlength="11" id="phone" type="text" placeholder="请输入手机号">
+                </div>
+                <div>
+                    <label>动态码</label>
+                    <input id="code" type="text" placeholder="验证码">
+                    <input class="button" value="获取动态码" type="button"/>
+                </div>
+                <input class="submit" type="button" value="下一步">
+            </div>
+        </div>
+    </div>
+    <div class="code">
+        <div class="bd_code"></div>
+        <div class="code_info">
+            <div>验证码</div>
+            <div class="code_input"><input maxlength="4" type="text"><img src="http://192.168.200.184:1234/account/CheckCode"></div>
+            <div class="button_code">
+                <a class="send" href="###">取消</a>
+                <a class="send" href="###">发送</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/forgetPwd.js"></script>
+</body>
+</html>

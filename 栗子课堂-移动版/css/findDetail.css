@@ -1,0 +1,92 @@
+body{
+    background: #dedede;
+}
+.find_detail{
+    width: 640pc;
+    overflow: hidden;
+    margin: 88px auto 0px;
+}
+.start{
+    width: 640px;
+    background: #fff;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.start>p:nth-child(1){
+    padding: 6px;
+    display: inline-block;
+    background: #c0c0c0;
+    margin-top: 34px;
+    margin-left: 30px;
+    border-radius:5px;
+    color: #fff;
+}
+.start>p:nth-child(2){
+    width: 572px;
+    margin: 0 auto;
+    line-height: 42px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: #333;
+}
+.start>div{
+    width: 572px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #a7a7a7;
+}
+.start>div>span{
+    float: left;
+    height: 16px;
+    line-height: 16px;
+}
+.start>div>span:nth-child(2){
+    padding: 0px 25px 0px 15px;
+    border-right: 1px solid #7a7a7a;
+}
+.start>div>span:nth-child(3){
+    padding-left: 25px;
+}
+.start>img{
+    display: block;
+    margin: 28px auto;
+}
+.bs_title{
+    margin: 40px 0px 16px 32px;
+    font-size: 22px;
+}
+/*查看回复*/
+.backContent_click{
+    width: 100%;
+    font-size: 22px;
+    color:#666;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.backContent_click>img{
+    margin-left: 15px;
+}
+.backContent{
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: none;
+}
+.backContent>div{
+    width: 60%;
+    margin: 0px auto;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.backContent>div>span:nth-child(1),
+.backContent>div>span:nth-child(2)
+{
+    color: #333;
+    padding-right: 15px;
+}
+.backContent>div>span:nth-child(3){
+    color:#666;
+}
+

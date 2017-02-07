@@ -1,0 +1,36 @@
+/*底部导航栏*/
+.bottomNav{
+    width: 640px;
+    height: 72px;
+    background: #f5f5f5;
+    border-top:1px solid #dedede;
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+}
+.bottomNav>a{
+    display: block;
+    text-decoration: none;
+    width: 25%;
+    height: 72px;
+    padding: 0 auto;
+    float: left;
+    cursor: pointer;
+}
+.navBar>img,.navBar>span{
+    display: block;
+}
+.navBar>img{
+    margin: 10px auto 0px;
+}
+.navBar>span{
+    text-align: center;
+    font-size: 16px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 7px;
+    color: #7f7f7f;
+}
+.active>span{
+    color: #1bbc9b;
+}

@@ -1,0 +1,49 @@
+/*下载*/
+.prev{
+    width: 280px;
+    margin: 260px auto 0px;
+    overflow: hidden;
+    z-index: 1;
+}
+.prev>img{
+    display: block;
+    margin: 0 auto;
+}
+.prev>p{
+    width: 100%;
+    text-align: center;
+    color: #666;
+    margin-top: 68px;
+    margin-bottom: 50px;
+}
+.prev>a{
+    display: block;
+    width:276px;
+    height: 76px;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 76px;
+    text-decoration: none;
+    color: #666;
+    font-size: 24px;
+}
+.lizi_D{
+    width: 640px;
+    overflow: hidden;
+    padding-bottom: 90px;
+    z-index: 1;
+}
+.lizi_Down{
+    margin-top: 88px;
+}
+.addClass{
+    width: 608px;
+    height: 177px;
+    border: 1px solid #000;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 177px;
+    font-size: 140px;
+    border-radius: 10px;
+}

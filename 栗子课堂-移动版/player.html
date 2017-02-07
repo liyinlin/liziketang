@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>播放视频</title>
+    <link rel="shortcut icon" type="image/png" href="images/e-logo.png">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-title" content=""/>
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta http-equiv="x-rim-auto-match" content="none" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- This is to force IE into the latest version mode, overriding 'compatibility' mode which breaks everything. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/resetPage.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <link rel="stylesheet" href="css/resetPage.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/progran.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/pl.css">
+    <link rel="stylesheet" href="css/player.css">
+    <script type="text/javascript" src="js/getinfo.js"></script>
+    <script type="text/javascript" src="js/layer/layer.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="main">
+            <div class="video" id="videos">
+                <div id="video">
+                    <video src="" autoplay poster="images/player/play.jpg">
+                        您的浏览器不支持 video 标签。
+                    </video>
+                </div>
+                <div class="back_video">
+                    <div class="back_video_bd"></div>
+                    <div class="back_video_content">
+                        <a class="screen_a" href="javascript:history.back()"><img src="images/index/left.png"></a>
+                        <div class="name">栗子课堂</div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="info_but">
+                    <div class="active"><span>目录</span></div>
+                    <div><span>详情</span></div>
+                    <div><span>评论</span></div>
+                </div>
+                <div class="swiper-container swipera">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="content_sub">
+                                <div class="list">
+                                    <div class="list_info">
+                                        <!--<div class="list_top">第一章<span>课程介绍</span><img src="images/player/but_bottom.png"></div>-->
+                                        <ul class="class_info">
+                                            <!--<li class="activeli">HTML历史与发展<span>30分钟</span></li>
+                                            <li>HTML基本标签<span>30分钟</span></li>
+                                            <li>CSS入门<span>30分钟</span></li>
+                                            <li>表格布局<span>30分钟</span></li>
+                                            <li>HTML历史与发展<span>30分钟</span></li>
+                                            <li>HTML基本标签<span>30分钟</span></li>
+                                            <li>CSS入门<span>30分钟</span></li>
+                                            <li>表格布局<span>30分钟</span></li>
+                                            <li>HTML基本标签<span>30分钟</span></li>
+                                            <li>CSS入门<span>30分钟</span></li>
+                                            <li>表格布局<span>30分钟</span></li>
+                                            <li>HTML历史与发展<span>30分钟</span></li>
+                                            <li>HTML基本标签<span>30分钟</span></li>
+                                            <li>CSS入门<span>30分钟</span></li>
+                                            <li>表格布局<span>30分钟</span></li>-->
+                                        </ul>
+                                    </div>
+                                    <!--<div class="list_info list_none">
+                                        <div class="list_top">第二章<span>相关软件使用介绍</span><img src="images/player/but_bottom.png"></div>
+                                        <ul class="class_info">
+                                            <li class="activeli">HTML历史与发展<span>30分钟</span></li>
+                                            <li>HTML基本标签<span>30分钟</span></li>
+                                            <li>CSS入门<span>30分钟</span></li>
+                                            <li>表格布局<span>30分钟</span></li>
+                                        </ul>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content_sub">
+                                <div class="item lesson_info">
+                                    <div class="title">Node.js开发实战</div>
+                                    <p>Html网页制作，css以及盒子模型精讲、js、jq、企业特效案例解析、css3响应式 模型精讲、js、jq、企业特效案例解析、css3响应式布局。</p>
+                                </div>
+                                <div class="info_list">
+                                    <div class="item">
+                                        <div class="title">核心内容</div>
+                                        <p>1.Html网页制作</p>
+                                        <p>2.js、jq、企业特效案例解析、css3响应</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="title">适合人群</div>
+                                        <p>1.有相关js基础</p>
+                                        <p>2.懂Node.js方法</p>
+                                    </div>
+                                </div>
+                                <div class="item teacher_info">
+                                    <div class="title">授课讲师</div>
+                                    <div class="teacher">
+                                        <div><img src="images/player/teacher.png" alt=""></div>
+                                        <div class="infos">
+                                            <div>陶老师</div>
+                                            <p>老师介绍描述老师介绍描述老师介绍描述老师介绍描述老师介绍描述 老师介绍描述老师介绍描述老师介绍描述</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item1">
+                                    <div class="title1">相关课程</div>
+                                    <div class="content_sub">
+                                        <div class="lizi">
+                                            <!--<a class="clear" href="###">
+                                                <div class="lizi_img">
+                                                    <img src="images/index/lizi_1.jpg" alt="">
+                                                </div>
+                                                <div class="lizi_text">
+                                                    <div>Node.js开发实战</div>
+                                                    <div>￥699<i>原价 ：2699</i></div>
+                                                    <div>
+                                                        <div>55课时<i>2400分钟</i></div>
+                                                        <div>8000人学习</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="clear" href="###">
+                                                <div class="lizi_img">
+                                                    <img src="images/index/lizi_2.jpg" alt="">
+                                                </div>
+                                                <div class="lizi_text">
+                                                    <div>基于bootstrap的网页开发</div>
+                                                    <div>￥699<i>原价 ：2699</i></div>
+                                                    <div>
+                                                        <div>55课时<i>2400分钟</i></div>
+                                                        <div>8000人学习</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="clear" href="###">
+                                                <div class="lizi_img">
+                                                    <img src="images/index/lizi_3.jpg" alt="">
+                                                </div>
+                                                <div class="lizi_text">
+                                                    <div>HTML5前端开发实战之网站</div>
+                                                    <div class="free">免费</div>
+                                                    <div>
+                                                        <div>55课时<i>2400分钟</i></div>
+                                                        <div>8000人学习</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a class="clear" href="###">
+                                                <div class="lizi_img">
+                                                    <img src="images/index/lizi_4.jpg" alt="">
+                                                </div>
+                                                <div class="lizi_text">
+                                                    <div>jQuery高级开发</div>
+                                                    <div class="free">免费</div>
+                                                    <div>
+                                                        <div>55课时<i>2400分钟</i></div>
+                                                        <div>8000人学习</div>
+                                                    </div>
+                                                </div>
+                                            </a>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content_sub question">
+                                <!--<form class="form1" method="" action="">
+                                    <div class="input_text"><textarea placeholder="想写啥就写啥"></textarea></div>
+                                    <input class="send_s" type="submit" value="发表">
+                                </form>-->
+                                <div class="title1">全部评论</div>
+                                <div class="question_sub">
+                                   <!-- <div class="sub_active">
+                                        <div class="name">
+                                            <img src="images/player/tx.jpg" alt="">
+                                            <span>blovetu</span>
+                                            <span>1970年1月1日</span>
+                                        </div>
+                                        <p class="name_p">wwwwwwwwwwwwwwwwwwwwwwwwwhfhvahej</p>
+                                        <div class="pl">
+                                            <div>
+                                                <img src="images/bottomNav/shou-hui-up.png" alt="">
+                                                <span>1</span>
+                                            </div>
+                                            <div>
+                                                <img src="images/bottomNav/shou-hui-down.png" alt="">
+                                                <span>1</span>
+                                            </div>
+                                            <div>
+                                                <span>1</span>
+                                                <img src="images/bottomNav/pl-hui.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sub_active">
+                                        <div class="name">
+                                            <img src="images/player/tx.jpg" alt="">
+                                            <span>blovetu</span>
+                                        </div>
+                                        <p class="name_p">wwwwwwwwwwwwwwwwwwwwwwwwwhfhvahej</p>
+                                        <div class="pl">
+                                            <div>
+                                                <img src="images/bottomNav/shou-hui-up.png" alt="">
+                                                <span>1</span>
+                                            </div>
+                                            <div>
+                                                <img src="images/bottomNav/shou-hui-down.png" alt="">
+                                                <span>1</span>
+                                            </div>
+                                            <div>
+                                                <span>1</span>
+                                                <img src="images/bottomNav/pl-hui.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sub_active">
+                                        <div class="name">
+                                            <img src="images/player/tx.jpg" alt="">
+                                            <span>blovetu</span>
+                                        </div>
+                                        <p class="name_p">wwwwwwwwwwwwwwwwwwwwwwwwwhfhvahej</p>
+                                        <div class="pl">
+                                            <div>
+                                                <img src="images/bottomNav/shou-hui-up.png" alt="">
+                                                <span>1</span>
+                                            </div>
+                                            <div>
+                                                <img src="images/bottomNav/shou-hui-down.png" alt="">
+                                                <span>1</span>
+                                            </div>
+                                            <div>
+                                                <span>1</span>
+                                                <img src="images/bottomNav/pl-hui.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottomBar">
+            <a href="index.html"><img src="images/player/bottomBar_1.png" alt=""></a>
+            <a href="###"><img src="images/player/bottomBar_2.png" alt=""></a>
+            <a href="###"><img src="images/player/bottomBar_3.png" alt=""></a>
+            <a href="###"><img src="images/player/bottomBar_4.png" alt=""></a>
+            <a href="###"><img src="images/player/bottomBar_5.png" alt=""></a>
+            <a class="offer" href="###">立即购买</a>
+        </div>
+    </div>
+    <div class="share">
+        <div class="share_sub">
+            <a href="###">
+                <img src="images/player/share_1.png" alt="">
+                <span>QQ好友</span>
+            </a>
+            <a href="###">
+                <img src="images/player/share_2.png" alt="">
+                <span>微信</span>
+            </a>
+            <a href="###">
+                <img src="images/player/share_3.png" alt="">
+                <span>QQ空间</span>
+            </a>
+            <a href="###">
+                <img src="images/player/share_4.png" alt="">
+                <span>朋友圈</span>
+            </a>
+            <!--<a href="###">
+                <img src="images/player/share_5.png" alt="">
+                <span>复制链接</span>
+            </a>-->
+        </div>
+        <div class="close">取消</div>
+    </div>
+    <div class="comment">
+        <div class="top_sub1">
+            <div>写评论</div>
+            <a href="###">发表</a>
+            <a href="###"><img src="images/index/left.png" alt=""></a>
+        </div>
+        <div class="input_text">
+            <textarea placeholder="写评论，吐槽，想说啥就说啥"></textarea>
+        </div>
+    </div>
+    <!--<div class="load">
+        <div class="top_sub1">
+            <div>下载</div>
+            <a href="###"></a>
+            <a href="###"><img src="images/index/left.png" alt=""></a>
+        </div>
+        <form class="form" action="" method="">
+             <div class="swiper-container swiperl">
+                 <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="check_box">
+                                            <div>CSS margin与容器的尺寸</div>
+                                            <div class="clear">
+                                                <div class="check_sub"><img src="images/player/check_box_1.jpg" alt=""></div>
+                                                <input class="checks" name="class" type="checkbox">
+                                                <div>1-1 CSS margin与容器的尺寸</div>
+                                                <div class="size">47.9M</div>
+                                            </div>
+                                        </div>
+                          <div class="check_box">
+                                            <div>CSS margin与百分比单位</div>
+                                            <div class="clear">
+                                                <div class="check_sub"><img src="images/player/check_box_1.jpg" alt=""></div>
+                                                <input class="checks" name="class" type="checkbox">
+                                                <div>2-1 CSS margin与百分比单位</div>
+                                                <div class="size">47.9M</div>
+                                            </div>
+                                        </div>
+                          <div class="check_box">
+                                            <div>CSS 正确看待margin重叠</div>
+                                            <div class="clear">
+                                                <div class="check_sub"><img src="images/player/check_box_1.jpg" alt=""></div>
+                                                <input class="checks" name="class" type="checkbox">
+                                                <div>3-1 CSS margin与容器的尺寸</div>
+                                                <div class="size">47.9M</div>
+                                            </div>
+                                        </div>
+                          <div class="check_box">
+                                            <div>CSS margin与容器的尺寸</div>
+                                            <div class="clear">
+                                                <div class="check_sub"><img src="images/player/check_box_1.jpg" alt=""></div>
+                                                <input name="class" type="checkbox">
+                                                <div>1-1 CSS margin与容器的尺寸</div>
+                                                <div class="size">47.9M</div>
+                                            </div>
+                                        </div>
+                          <div class="check_box">
+                                <div>CSS margin与百分比单位</div>
+                                <div class="clear">
+                                    <div class="check_sub"><img src="images/player/check_box_1.jpg" alt=""></div>
+                                    <input class="checks" name="class" type="checkbox">
+                                    <div>2-1 CSS margin与百分比单位</div>
+                                    <div class="size">47.9M</div>
+                                </div>
+                            </div>
+                          <div class="check_box">
+                                <div>CSS 正确看待margin重叠</div>
+                                <div class="clear">
+                                    <div class="check_sub"><img src="images/player/check_box_1.jpg" alt=""></div>
+                                    <input class="checks" name="class" type="checkbox">
+                                    <div>3-1 CSS margin与容器的尺寸</div>
+                                    <div class="size">47.9M</div>
+                                </div>
+                            </div>
+                          <div class="check_box">
+                                <div>CSS margin与容器的尺寸</div>
+                                <div class="clear">
+                                    <div class="check_sub"><img src="images/player/check_box_1.jpg" alt=""></div>
+                                    <input class="checks" name="class" type="checkbox">
+                                    <div>1-1 CSS margin与容器的尺寸</div>
+                                    <div class="size">47.9M</div>
+                                </div>
+                            </div>
+                          <div class="check_box">
+                                <div>CSS margin与百分比单位</div>
+                                <div class="clear">
+                                    <div class="check_sub"><img src="images/player/check_box_1.jpg" alt=""></div>
+                                    <input class="checks" name="class" type="checkbox">
+                                    <div>2-1 CSS margin与百分比单位</div>
+                                    <div class="size">47.9M</div>
+                                </div>
+                            </div>
+                          <div class="check_box">
+                                <div>CSS 正确看待margin重叠</div>
+                                <div class="clear">
+                                    <div class="check_sub"><img src="images/player/check_box_1.jpg" alt=""></div>
+                                    <input name="class" type="checkbox">
+                                    <div>3-1 CSS margin与容器的尺寸</div>
+                                    <div class="size">47.9M</div>
+                                </div>
+                                <div class="check_box">
+                                    <div>CSS margin与百分比单位</div>
+                                    <div class="clear">
+                                        <div class="check_sub"><img src="images/player/check_box_1.jpg" alt=""></div>
+                                        <input class="checks" name="class" type="checkbox">
+                                        <div>2-1 CSS margin与百分比单位</div>
+                                        <div class="size">47.9M</div>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                 </div>
+                 <div class="swiper-scrollbar"></div>
+             </div>
+             <div class="button">
+                  <input type="button" value="全选">
+                  <input type="button" value="下载">
+             </div>
+        </form>
+    </div>-->
+    <script type="text/javascript" src="js/player.js"></script>
+</body>
+</html>

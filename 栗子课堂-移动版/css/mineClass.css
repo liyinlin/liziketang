@@ -1,0 +1,86 @@
+.mineClass{
+    padding-top:88px;
+    width: 640px;
+    min-height: 100%;
+    overflow: hidden;
+    z-index: 104;
+}
+.top_sub{
+    z-index: 100;
+}
+.nav_top{
+    width: 640px;
+    overflow: hidden;
+    background: #fff;
+    position: fixed;
+    margin-top: 88px;
+    z-index: 98;
+}
+.class_top{
+    width: 620px;
+    height: 68px;
+    overflow: hidden;
+    border-bottom: 1px solid #dedede;
+    margin: 0 auto;
+}
+.class_top>div{
+    width: 33%;
+    height: 44px;
+    float: left;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 12px;
+    border-right: 1px solid #dedede;
+    font-size: 24px;
+    color: #333;
+}
+.class_top>div:nth-last-child(1){
+    border: none;
+}
+.swiper-container{
+    margin-top: 68px;
+    width: 640px;
+    overflow: hidden;
+    z-index: 20;
+    min-height: 100%;
+}
+.swiper-slide{
+    width: 640px;
+    min-height: 100%;
+    overflow: hidden;
+}
+body .class_top .active{
+    color: #1abd9b;
+}
+.lizi_text1>div:nth-child(1){
+    width: 180px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.lizi_text1{
+    position: relative;
+}
+.add1,.add2{
+    position: absolute;
+    font-size: 20px;
+}
+.add1{
+    color: #ff5c00;
+    right: 32px;
+    top:0px;
+    display: block;
+}
+.add2{
+    padding: 5px 24px;
+    background: #ff5c00;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    top: 64px;
+    right: 30px;
+}
+.prev{
+    display: none;
+}
+

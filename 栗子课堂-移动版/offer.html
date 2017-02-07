@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>支付页面</title>
+    <link rel="shortcut icon" type="image/png" href="images/e-logo.png">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-title" content=""/>
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta http-equiv="x-rim-auto-match" content="none" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- This is to force IE into the latest version mode, overriding 'compatibility' mode which breaks everything. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/resetPage.js"></script>
+    <link rel="stylesheet" href="css/resetPage.css">
+    <link rel="stylesheet" href="css/program.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/offer.css">
+    <link rel="stylesheet" href="css/code.css">
+    <script type="text/javascript" src="js/layer/layer.js"></script>
+    <script type="text/javascript" src="js/getinfo.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="top_sub">
+            <div>立即购买</div>
+            <a href="javascript:history.back()"><img src="images/index/left.png" alt=""></a>
+        </div>
+        <div class="content_sub">
+            <ul>
+                <li>课程信息</li>
+                <li>
+                    <div>名称</div>
+                    <div class="name">HTML5应用开发</div>
+                </li>
+                <li>
+                    <div>价格</div>
+                    <div class="color">￥199</div>
+                </li>
+            </ul>
+            <ul>
+                <li>选择支付方式</li>
+                <li  class="active">
+                    <img src="images/offer/ye-pay.png" alt="">
+                    <span>余额支付</span>
+                    <input name="check" type="radio" value="余额支付">
+                    <div class="dui"></div>
+                </li>
+                <li>
+                    <img src="images/offer/weixin.png" alt="">
+                    <span>微信支付</span>
+                    <input name="check" type="radio" value="微信支付">
+                    <div class="dui"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="input_offer">
+            <a href="###">立即支付</a>
+        </div>
+    </div>
+    <div class="code">
+        <div class="bd_code"></div>
+        <div class="code_info">
+            <div>支付密码<span class="tips">(登录密码)</span></div>
+            <div class="code_input"><input type="password"></div>
+            <div class="button_code">
+                <a class="send" href="###">取消</a>
+                <a class="send" href="###">发送</a>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="js/offer.js"></script>
+</body>
+</html>
